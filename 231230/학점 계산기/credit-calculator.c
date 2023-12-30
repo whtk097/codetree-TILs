@@ -10,12 +10,12 @@ int main() {
         scanf("%f",&a[i]);
         sum+=a[i];
     }
-    printf("%.1f\n",sum/n);
+    printf("%.1lf\n",sum/n);
     if((float)sum/n>=4){
         printf("Perfect");
 
     }
-    else if((float )sum/n>=3) printf("Good");
+    else if(sum/n>=3) printf("Good");
     else printf("Poor");
     return 0;
 }
