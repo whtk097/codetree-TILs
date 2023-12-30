@@ -10,7 +10,7 @@ int main() {
         scanf("%f",&a[i]);
         sum+=a[i];
     }
-    printf("%.1f\n",(float)sum/n);
+    printf("%.1f\n",sum/n);
     if((float)sum/n>=4){
         printf("Perfect");
 
