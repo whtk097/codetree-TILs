@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    // 여기에 코드를 작성해주세요.
+    int n,i,cnt=1;
+    scanf("%d",&n);
+    for(i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+        printf("%d ",cnt);cnt++;}
+printf("\n");
+    }
+
+    return 0;
+}
