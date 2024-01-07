@@ -7,11 +7,11 @@ int main() {
     scanf("%d",&n);
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
-        if(a[i]%2==1) a[i]=0;
+        if(a[i]%2==1) a[i]=-1;
 
     }
     for(i=i-1;i>=0;i--){
-        if(a[i]!=0)printf("%d ",a[i]);
+        if(a[i]!=-1)printf("%d ",a[i]);
     }
     return 0;
 }
