@@ -5,10 +5,10 @@ int main() {
     int a[10];int i=0;
     for(i=0;i<10;i++){
         scanf("%d",&a[i]);
-        if(a[i]==0) { i--; break;}
+        if(a[i]==0) {  break;}
 
     }
-    for(i=i;i>=0;i--){
+    for(i=i-1;i>=0;i--){
         printf("%d ",a[i]);
     }
     return 0;
