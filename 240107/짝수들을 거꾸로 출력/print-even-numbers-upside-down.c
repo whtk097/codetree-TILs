@@ -3,7 +3,9 @@
 int main() {
     // 여기에 코드를 작성해주세요.
     int a[10];int i=0;
-    for(i=0;i<10;i++){
+    int n;
+    scanf("%d",&n);
+    for(i=0;i<n;i++){
         scanf("%d",&a[i]);
         if(a[i]%2==1) a[i]=0;
 
