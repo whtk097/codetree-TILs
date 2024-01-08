@@ -5,6 +5,7 @@ int main() {
     int n; int cnt=0,sum=0,a,b;
     scanf("%d %d",&a,&b);
 for(int j=a;j<=b;j++){
+    sum=0;
     for(int i=1;i<j;i++){
         if(j%i==0)sum+=i;
     
