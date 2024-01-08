@@ -5,12 +5,16 @@ int main() {
     int a[10];int sum=0,sum1=0,cnt=0;
     for(int i=0;i<10;i++){
     scanf("%d",&a[i]);
-    if(i%2==1||(i-3)%2==0){
+    if(i%2==1){
         sum+=a[i];
+    
+    }
+    if(i==2||i==5||i==8){
+        sum1+=a[i];
         cnt++;
     }
    }
-   printf("%d %.1f",sum,(float)sum/cnt);
+   printf("%d %.1f",sum,(double)sum1/cnt);
 
 
     return 0;
